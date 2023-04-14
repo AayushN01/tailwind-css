@@ -5,16 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind CSS Intro</title>
-      <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
 <body>
-    <nav class="py-4 bg-purple-900 text-white">
-        <ul class="flex mx-4    ">
-            <li class="mx-2 cursor-pointer">Home</li>
-            <li class="mx-2 cursor-pointer">About</li>
-            <li class="mx-2 cursor-pointer">Contact</li>
+    <nav class="py-4 bg-purple-900 text-white flex justify-between">
+        <!-- <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="logo" class="h-20 pt-3 px-3 rounded-3xl">
+         -->
+         <h3 class="text-3xl uppercase flex items-center px-3 mx-3 hover:text-red-600 cursor-pointer hover:border-2  hover:border-white"><a href="index.html">LOGO</a></h3>
+        <ul class="flex px-24 py-4 space-x-10 justify-end text-xl">
+            <li class="cursor-pointer">Home</li>
+            <li class="cursor-pointer">About</li>
+            <li class="cursor-pointer">Blog</li>
+            <li class="cursor-pointer">Contact</li>
         </ul>
     </nav>
+    <main class="bg-slate-300 flex w-full">
+        <div class="main h-auto py-20 pl-9">
+            <div class="text-6xl">Welcome to Tailwind CSS Intro</div>
+            <p class="text-justify py-5 w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem impedit quae officia voluptates possimus quia consectetur molestias laborum fugiat earum!</p>
+            <div class="button">
+                <button class="bg-purple-600 px-3 py-2 text-white rounded-2xl  hover:bg-white hover:text-purple-600">Learn More</button>
+                <button class="bg-red-600 px-3 py-2 text-white rounded-2xl hover:bg-white hover:text-purple-600">Contact Us</button>
+            </div>
+        </div>
+        <div class="flex items-center">
+            <img src="images/bg1.png" alt="banner" class="h-full">
+        </div>
+    </main>
 </body>
 </html>
