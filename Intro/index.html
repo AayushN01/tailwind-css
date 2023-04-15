@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,30 +9,46 @@
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" href="input.css">
 </head>
+
 <body class="font-mono">
     <nav class="py-4 bg-purple-900 text-white flex justify-between">
         <!-- <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="logo" class="h-20 pt-3 px-3 rounded-3xl">
          -->
-         <h3 class="text-3xl uppercase flex items-center px-3 mx-3 hover:text-red-600 cursor-pointer hover:border-2  hover:border-white"><a href="index.html">LOGO</a></h3>
+        <h3
+            class="text-3xl uppercase flex items-center px-3 mx-3 hover:text-red-600 cursor-pointer hover:border-2  hover:border-white">
+            <a href="index.html">LOGO</a></h3>
         <ul class="flex px-24 py-4 space-x-10 justify-end text-xl">
-            <li class="cursor-pointer">Home</li>
-            <li class="cursor-pointer">About</li>
-            <li class="cursor-pointer">Blog</li>
-            <li class="cursor-pointer">Contact</li>
+            <li class="cursor-pointer uppercase hover:underline hover:text-red-600"><a href="#"> Home</a></li>
+            <li class="cursor-pointer uppercase hover:underline hover:text-red-600"><a href="#"> About</a></li>
+            <li class="cursor-pointer uppercase hover:underline hover:text-red-600"><a href="#"> Blog</a></li>
+            <li class="cursor-pointer uppercase hover:underline hover:text-red-600"><a href="#"> Contact</a></li>
         </ul>
     </nav>
-    <main class="bg-slate-300 flex w-full">
+    <main class="main bg-slate-300 flex w-full p-0 m-0">
         <div class="main h-auto py-20 pl-9">
             <div class="text-5xl font-semibold">Welcome to Tailwind CSS Intro</div>
-            <p class="text-base text-justify py-5 w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem impedit quae officia voluptates possimus quia consectetur molestias laborum fugiat earum!</p>
+            <p class="text-base text-justify px-3 py-5 md:w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                impedit quae officia voluptates possimus quia consectetur molestias laborum fugiat earum!</p>
             <div class="button">
-                <button class="bg-purple-600 px-3 py-2 text-white rounded-2xl  hover:bg-white hover:text-purple-600">Learn More</button>
-                <button class="bg-red-600 px-3 py-2 text-white rounded-2xl hover:bg-white hover:text-purple-600">Contact Us</button>
+                <button
+                    class="bg-purple-600 px-3 py-2 text-white rounded-2xl  hover:bg-white hover:text-purple-600">Learn
+                    More</button>
+                <button class="bg-red-600 px-3 py-2 text-white rounded-2xl hover:bg-white hover:text-purple-600">Contact
+                    Us</button>
             </div>
         </div>
-        <div class="flex items-center">
+        <div class="hidden items-center md:flex">
             <img src="images/bg1.png" alt="banner" class="h-full">
         </div>
     </main>
+    <section class="w-full p-0 m-0 bg-amber-100 sm:bg-slate-100 md:bg-zinc-300 text-black font-semibold">
+        <div class="p-5 text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquam placeat labore iste a facere,
+            perferendis ipsum libero ratione incidunt facilis voluptatibus magnam quibusdam maiores numquam
+            reprehenderit? Laborum, distinctio libero mollitia tempora harum at vel quod nulla excepturi aliquam eius
+            exercitationem nemo incidunt, tempore ratione omnis laboriosam quam ut suscipit?
+        </div>
+    </section>
 </body>
+
 </html>
