@@ -1,6 +1,13 @@
 @tailwind base;
 @tailwind components;
-.list-item {
-    @apply cursor-pointer uppercase hover:underline hover:text-red-600;
-}
+/* .list-item {
+    @apply cursor-pointer uppercase hover:underline hover:text-red-600;  //@apply directive
+} */
 @tailwind utilities;
+
+/* @layer directives */
+@layer components{
+    .list-item {
+        @apply cursor-pointer uppercase hover:underline hover:text-red-600;
+    }
+}
