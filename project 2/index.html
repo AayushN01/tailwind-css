@@ -6,41 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microsoft – Cloud, Computers, Apps &amp; Gaming</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 </head>
 <body>
-    <div class="navbar flex justify-between items-center p-4">
-        <div class="flex justify-center items-center md:order-2">
-            <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
-                <div class="line bg-black w-5 h-0.5 my-1"></div>
-                <div class="line bg-black w-5 h-0.5 my-1"></div>
-                <div class="line bg-black w-5 h-0.5 my-1"></div>
+    <div class="container mx-auto">
+        <div class="navbar flex justify-between items-center p-4">
+            <div class="flex justify-center items-center md:order-2">
+                <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+                    <div class="line bg-black w-5 h-0.5 my-1"></div>
+                    <div class="line bg-black w-5 h-0.5 my-1"></div>
+                    <div class="line bg-black w-5 h-0.5 my-1"></div>
+                </div>
+                <div class="search md:hidden"><i class="fa fa-magnifying-glass"></i></div>
+    
             </div>
-            <div class="search md:hidden">Search</div>
-
-        </div>
-
-        <div class="logo text-center flex md:order-1">
-            <div>Microsoft</div>
-            <div class="nav-menu absolute md:static w-fit md:w-auto bg-gray-200 md:bg-white inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0">
-                <div class="item">Microsoft 365</div>
-                <div class="item">Teams</div>
-                <div class="item">Windows</div>
-                <div class="item">Surface</div>
-                <div class="item">Xbox</div>
-                <div class="item">Deals</div>
-                <div class="item">Small Business</div>
-                <div class="item">Support</div>
+    
+            <div class="logo text-center flex md:order-1">
+                <div class="px-4 w-40 "><img src="images/microsoftlogo.png" alt="logo" ></div>
+                <div class="nav-menu absolute md:static w-fit md:w-auto bg-gray-200 md:bg-white inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0">
+                    <div class="item">Microsoft 365</div>
+                    <div class="item">Teams</div>
+                    <div class="item">Windows</div>
+                    <div class="item">Surface</div>
+                    <div class="item">Xbox</div>
+                    <div class="item">Deals</div>
+                    <div class="item">Small Business</div>
+                    <div class="item">Support</div>
+                </div>
+            </div>
+            <div class="cart text-center md:order-3 flex">
+    
+                <div class="search hidden md:block">
+                    All Microsoft Search</div>
+                <div class="cart-account">
+                    <i class="fa fa-user"></i>
+                </div>
             </div>
         </div>
-        <div class="cart text-center md:order-3 flex">
-
-            <div class="search hidden md:block">
-                All Microsoft Search</div>
-            <div class="cart-account">
-                Account
-
+        <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2] mx-2">
+            <div class="left flex flex-col justify-center items-center md:items-baseline py-12">
+                <h2 class="text-2xl font-medium md:text-4xl text-center mx-5">Surface and Sustainability</h2>
+                <p class="md:w-3/4 mx-5 text-center md:text-base md:text-justify">
+                    Our ENERGY STAR® certified devices are built to do more while using less power, getting us one step closer towards Microsoft’s 2030 target of being carbon negative.
+                </p>
+                <button class="btn bg-slate-900 text-white px-4 py-2 my-6 font-bold mx-5">
+                    Learn more</button>
+            </div>
+            <div class="right">
+                <img src="images/3147306_988-removebg-preview.png" alt="laptop">
             </div>
         </div>
     </div>
+
 </body>
 </html>
